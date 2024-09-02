@@ -7,7 +7,7 @@
                 System.out.println(i + " ");
             }
             //задача 2
-            for (int i = 10; i > 1; i--) {
+            for (int i = 10; i >= 1; i--) {
                 System.out.println(i + " ");
             }
             ///задача 3
@@ -49,7 +49,7 @@
             }
             // задача 10
             for (int multiplier = 1; multiplier <= 10; multiplier++) {
-                System.out.printlf(" %d x %d = %d%n", 2, multiplier, 2 * multiplier);
+                System.out.printf(" %d x %d = %d%n", 2, multiplier, 2 * multiplier);
             }
         }
     }
